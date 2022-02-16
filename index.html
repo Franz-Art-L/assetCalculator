@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishoboy Asset Calculator</title>
+
+    <link rel="icon" href="images/cover.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.2/underscore-umd-min.js"></script>
+
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3 class="text-left">Ishoboy</h3>
+        <h1 class="text-center my-4">Asset Calculator</h1>
+        <div class="row">
+            <div class="col-12">
+               <div><h5 class="text-center bg-primary" style="color: gold;">EQUITIES</h5></div>
+                <table class="table table-striped table-dark col-12">
+                    <thead class="table thead-dark" style="border-radius: 10px;">
+                    
+                        <tr>
+                            <th scope="col">Ticker Name</th>
+                            <th scope="col">Asset Name</th>
+                            <th scope="col">Portfolio %</th>
+                            <th scope="col">Market Price</th>
+                            <th scope="col">Cost per share</th>
+                            <th scope="col">Total Shares</th>
+                            <th scope="col">Uncommitted Shares</th>
+                            <th scope="col">Market Value</th>
+                            <th scope="col">Total Gain/Loss</th>
+                            <th scope="col">Gain/Loss %</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="stockCode">scrt</td>
+                            <td class="stockName">SECRET haha</td>
+                            <td class="portfolioPercentage"></td>
+                            <td class="marketPrice"><input type="number" value="140000"></td>
+                            <td class="averagePrice"><input type="number" value="2000"></td>
+                            <td class="totalShare"><input type="number" value="22567"></td>
+                            <td class="uncommittedShares"><input type="number" value="0"></td>
+                            <td class="marketValue"></td>
+                            <td class="totalGainLoss"></td>
+                            <td class="gainLossPercent"></td>
+                            <td><button class="btn btn-light">remove</button></td>
+                            
+                        </tr>
+                    </tbody>
+                   
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
